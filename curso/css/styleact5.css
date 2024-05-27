@@ -1,28 +1,18 @@
-
-h1 {
+.h1Modificado {
     text-align: center;
     font-size: 50px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
 }
-    
 body {
     margin: 0;
-   }
-
-
-
+}
 .headerFondo {
-    
     padding: 280px 0px;
     background-image: url(./portada.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
-
-
 .celdaInput{
     width: 33%;
     text-align: left;
@@ -33,17 +23,16 @@ body {
     padding-right: 15%;
     text-align: center;
     margin-bottom: 5%;
+    background-color:rgb(228, 228, 228)
 }
 h2{
     font-size: 2em;
     text-align: center;
 }
-
 .textSub {
     color: rgb(165, 162, 162);
     text-align: center;
 }
-
 .labelInput{
     display: inline;
 }
@@ -52,49 +41,30 @@ h2{
     font-size: 1.17em;
     font-weight: bold;
 }
-
-
-a {
-    text-decoration: none;
-    color: black;
+a{
+    text-decoration: none !important;
+    color: black !important;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
     justify-content: space-between;
 }
-
 a:hover {
     color: white;
     font-size: 12;
     transition: all 0,3;
 }
-
-
-
 footer {
-    background-color:  rgb(172, 85, 172);
+    background-color:rgb(172, 85, 172);
     height: 120px;
-    Margin: 0 uto;
-    Padding: 25px 0 ;
-    
+    margin: 0 auto;
+    padding: 0 ;
     text-align: center;
-    
 }
-
-footer a {
-    color: blue;
-    text-transform: none;
-    font-size: 15px;
-    text-decoration: underline;
-}
-
-
-
 li {
     list-style: none;
     
 }
-
 ul {
     display: flex;
     align-items: center;
@@ -103,8 +73,36 @@ ul {
     top: 0;
     
 }
-
-main {
-    padding: 50px;
+.barraCabecera{
+    position:fixed;
+    width: 100%;
+    top:0px;
+    z-index: 2;
 }
-
+.backgroundBarrita1{
+    background-color:rgb(168, 8, 168)
+}
+.backgroundBarrita2{
+    background-color:rgb(221, 219, 219)
+}
+.preguntasYCondiciones
+{
+    position:fixed;
+    right:5%;
+}
+.contacto
+{
+    position:fixed;
+    left:5%;
+}
+.horariosAtencion
+{
+    position:fixed;
+    left:15%;
+}
+.newsletter
+{
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:50px;
+}
