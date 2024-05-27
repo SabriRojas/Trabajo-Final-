@@ -1,0 +1,97 @@
+* { 
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+   
+}
+
+body {
+    border: 2px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+header {
+    background-color: red;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px 20px 50px 2px;
+}
+
+
+li:hover {
+    background-color: black;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+
+.textConteiner {
+    display: flex;
+    gap: 16px;
+}
+
+
+/* lista - animación*/
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+    transition: all 0.3s;
+    color: yellow;
+}
+
+/*lista - uno a lado del otro*/ 
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+
+h1 {
+    background-color: rgb(255, 251, 0);
+    display: inline-block;q
+}
+
+main {
+    padding: 0px 20px;
+}
+
+
+
+footer {
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+
+    display: grid; 
+    place-items: center; 
+    justify-content: center;
+
+}
+
+
+
+
+/* 

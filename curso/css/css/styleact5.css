@@ -1,0 +1,94 @@
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+body {
+    margin: 0;
+   }
+
+header {
+    background-color: rgb(172, 85, 172);
+    padding: 25px 0px;
+}
+
+.img  {
+    width: 100%;
+}
+
+.celdaInput{
+    width: 33%;
+    text-align: left;
+    display: inline-block;
+}
+.visual1 {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+h2{
+    font-size: 2em;
+}
+.labelInput{
+    display: inline;
+}
+.tituloFechas
+{
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: white;
+    font-size: 12;
+    transition: all 0,3;
+}
+
+
+
+footer {
+    background-color:  rgb(172, 85, 172);
+    height: 120px;
+    Margin: 0 uto;
+    Padding: 25px 0 ;
+    
+    text-align: center;
+    
+}
+
+footer a {
+    color: blue;
+    text-transform: none;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+
+
+li {
+    list-style: none;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 10;
+    
+}
+

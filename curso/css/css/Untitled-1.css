@@ -1,0 +1,27 @@
+/* primer codigo en css, escribiendo un fondo rojo */
+* { 
+    background-color: red;
+    background-image: url("./") ;
+    color: white;
+}
+
+body{
+        
+}
+
+td {
+    background-color: blue;
+}
+
+.miClaseCss {
+    background-color: orange;
+}
+
+p {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    display: inline; adaptate al contenido que vos tengas adentro
+    
+
+}

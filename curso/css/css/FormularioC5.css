@@ -1,0 +1,29 @@
+input {
+    padding: 8px;
+	width: 250px;
+	border: 2px solid #000;
+}
+
+textarea {
+    padding: 8px;
+	border: 2px solid #000;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(161, 10, 161)
+}
+
+body {
+    text-align: center;
+    background-color: violet
+}
+.bordeForm{
+    border:10px solid purple;
+    background-color: rgb(245, 181, 239);
+}
+
+.botonvioleta {
+    background-color: purple !important;
+    color: white;
+}

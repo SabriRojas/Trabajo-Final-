@@ -1,0 +1,72 @@
+
+
+.miClaseCss {
+    background-color: orange;
+    width: 300px;
+    color: black;
+    font-family: system-ui ;
+    font-size: 30px;
+    font-weight: 500px;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+
+.imagenDeFondo {
+    background-image: url("../hmtl/perritodurmiendiconosito.jpg");
+    background-position: center center;   
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    width: 200px;
+    height: 200px;
+
+    border left: 10px solid color: black; 
+    border-right: 
+    
+}
+
+.sizeDiv {
+    height: 150px;
+    width: 150px;
+}
+
+.verde {
+    background-color: green;
+    position: relative;
+    top: 30px;
+    left: 200px;
+    z-index: 1;
+
+
+}
+
+.rojo {
+    background-color: red;
+    position: absolute;
+    left: 120px;
+}
+
+.azul {
+    background-color: blue;
+    z-index: 1;
+    position: fixed;
+    right: 0;
+}
+
+.violeta {
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
+}
+
+
+
+/*RGB = RED GREEN BLUE
+3 posiciones (o, o, o)
+
+Sus valores van del 0 a 255
+
+height: 40%;
+    height: 10em; 
+    height: 10ex; 

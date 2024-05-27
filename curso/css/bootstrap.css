@@ -1,0 +1,13 @@
+.textoAzul {
+    color: blue;
+}
+
+.fondoNaranja {
+    background-color: orange;
+}
+
+/* Para pisarlo y obligarlo, puedo ponerle la etiqueta de !important: 
+
+Mas que nada para los margenes */
+
+/* Clase de bootstrap arriba y clase de ccs abajo */
